@@ -13,10 +13,13 @@ This project uses custom-sampled data from Kaggle sources:
 - **Human Faces** – from [`ashwingupta3012/real-human-faces`](https://www.kaggle.com/datasets/ashwingupta3012/real-human-faces)
 
 Each category is stored in:
+
+```text
 dataset/
 ├── anime/
 ├── cartoon/
 └── human/
+```
 
 ---
 
@@ -96,6 +99,8 @@ training/training_summary.txt
 ---
 
 ## Project Structure
+
+```text
 ├── dataset/                 ← Sampled anime/cartoon/human faces
 ├── inference/              ← Output prediction images
 ├── model/                  ← Saved model (.keras)
@@ -104,6 +109,7 @@ training/training_summary.txt
 ├── main.py                 ← Training pipeline
 ├── README.md               ← You’re reading it!
 └── .gitignore              ← Excludes datasets, models, etc.
+```
 
 ---
 
