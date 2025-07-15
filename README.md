@@ -54,13 +54,13 @@ To avoid large downloads, each category is limited to 300 samples using `kaggleh
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) © [Techdudetony](https://github.com/Techdudetony)
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - [Kaggle](https://www.kaggle.com/) for the datasets  
 - `kagglehub` for simplified API access  

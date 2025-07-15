@@ -1,0 +1,15 @@
+📊 CNN Training Summary
+==============================
+
+Epochs: 30
+Batch Size: 32
+Image Size: (64, 64)
+Classes: 3
+
+Training Samples: 1440
+Validation Samples: 384
+
+Final Training Accuracy: 0.9951
+Final Validation Accuracy: 0.9887
+Final Training Loss: 0.0259
+Final Validation Loss: 0.2025

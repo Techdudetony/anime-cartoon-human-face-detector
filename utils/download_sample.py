@@ -6,7 +6,7 @@ import zipfile
 from pathlib import Path
 from tqdm import tqdm # Progress Bar in Terminal
 
-def download_sample(dataset_id, category_name, sample_size=300):
+def download_sample(dataset_id, category_name, sample_size=2000):
     # Download dataset using Kagglehub
     print(f"\n Downloading '{dataset_id} via kagglehub...")
     path = kagglehub.dataset_download(dataset_id)
@@ -38,10 +38,10 @@ def download_sample(dataset_id, category_name, sample_size=300):
     
 if __name__ == "__main__":
     # Anime Faces
-    download_sample("splcher/animefacedataset", "anime", sample_size=300)
+    download_sample("splcher/animefacedataset", "anime", sample_size=2000)
     
     # Cartoon Faces
-    download_sample("brendanartley/cartoon-faces-googles-cartoon-set", "cartoon", sample_size=300)
+    download_sample("brendanartley/cartoon-faces-googles-cartoon-set", "cartoon", sample_size=2000)
     
     # Human Faces
-    download_sample("ashwingupta3012/human-faces", "human", sample_size=300)
+    download_sample("ashwingupta3012/human-faces", "human", sample_size=2000)

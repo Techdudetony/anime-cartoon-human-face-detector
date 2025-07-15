@@ -1,0 +1,16 @@
+# --- Virtual environment ---
+.venv/
+
+# --- Large data & artifacts ---
+dataset/          # raw & sampled images
+model/            # saved .keras file(s)
+training/         # big pngs & txt logs (keep locally)
+inference/        # prediction grid images
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+
+# --- Jupyter & VS Code stuff ---
+.ipynb_checkpoints/
+.vscode/
